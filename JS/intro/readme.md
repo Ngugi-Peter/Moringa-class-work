@@ -41,3 +41,81 @@ in javascript we use "let" and "const" to declare variables
  - Snake case ;used mostly in python separetes the words in a variable using underscore e.g
 
     let My_Age=84;
+
+    ## Primitive Data Types
+
+> 
+
+ ******1. Number**s****
+
+We have three types of numbers 
+ -  real numbers this are whole numbers without decimals e.g
+ 
+
+let f=54;
+console.log(f);
+    
+
+ - floating numbers , this are number values with decimals e.g
+ 
+
+  
+
+  let t=69;
+   console.log(t);
+    
+
+ - negative number are numbers which are negative 
+
+ let y=-23;
+ console.log(y)
+
+;
+ 
+
+ 
+
+ **2. Strings**
+strings store sequences of data
+there are 3 ways of creating strings
+
+ - double quotes strings""
+ -  single quotes strings 'used when we want to  
+   include speech marks in our code' 
+ - back ticks < template strings>
+
+ let  str="double quotes strings"
+console.log(str);
+
+
+
+    let  str2=  'this is a single qoute string.'
+    console.log(str2);
+
+    let  str3  =  ` this an example of back tick it is also called template string.`
+    console.log(str3);
+
+    let  str4  =  " numbers like 23 between quotes are called strings"
+    console.log(str4);
+ **3.boleons represent True or false**
+
+    let  lightsOn  =  true;
+    console.log(lightsOn); 
+    let  lightOff  =  false;
+    console.log(lightOff);
+***4.null represents lack of value absence of value****
+
+    let  debt1=  null;
+    console.log(debt1);
+
+undefined also represents lack of value like null
+but never use undefined as it is used by javascript
+and may cause confusion*/
+
+    let  debt2=  undefined;
+    console.log(debt2);
+    let  debt3;//this is an undefined data type which will bring undefined.
+    console.log(debt3);
+
+   
+
