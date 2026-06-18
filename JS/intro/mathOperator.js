@@ -1,0 +1,21 @@
+let numb1=17;
+console.log(`The value of numb1 is ${numb1} it is of type ${typeof numb1}`);
+let numb2=57;
+console.log(`The value of numb2 is ${numb2} it is of type ${typeof numb2}`);
+let sum=numb1+numb2;
+console.log(`The sum of ${numb1} and ${numb2} is ${sum} it is of type ${typeof sum}`);
+let difference=numb1-numb2;
+console.log(`The difference of ${numb1} and ${numb2} is ${difference} it is of type ${typeof difference}`);
+let product=numb1*numb2;
+console.log(`The product of ${numb1} and ${numb2} is ${product} it is of type ${typeof product}`);
+let power=numb1**numb2;
+console.log(`The power of ${numb1} and ${numb2} is ${power} it is of type ${typeof power}`);
+let power2=Math.pow(numb1,numb2);
+console.log(`The power of ${numb1} and ${numb2} is ${power2} it is of type ${typeof power2}`);
+let power3=numb1**3;
+console.log(`The power of ${numb1} and 3 is ${power3} it is of type ${typeof power3}`);
+
+let quotient=numb1/numb2;
+console.log(`The quotient of ${numb1} and ${numb2} is ${quotient} it is of type ${typeof quotient}`);
+let remainder=numb1%numb2;
+console.log(`The remainder of ${numb1} and ${numb2} is ${remainder} it is of type ${typeof remainder}`);
