@@ -119,3 +119,44 @@ and may cause confusion*/
 
    
 
+
+
+# Comparisons operators
+
+they only evaluate true or false and are used by all data types
+1.Equality ==
+2.Strict Equality ===
+3.Inequality !=
+4.Strict Inequality !==
+
+## Strict Equality and Equality
+
+example let 
+
+    let num2="23";
+    let num3=23;
+    let strictEqual=numb1===numd2
+
+if we console.log it brings back false as num2 is a string and num3 is a number on the other hand if we use
+
+    let nonStrictEqual=numb1==numd2
+
+it gives back a boolean that says true
+
+## Inequality and strict inequality
+
+in strict inequality different types should not be equal to each other example;
+
+    let val1="30"
+    let val2=30
+    let strictinEquality= val1!==val2
+
+if we console.log it brings back true as this values are not the same one being a string the other being a number
+
+    let val1="30"
+    let val2=30
+    let nonStrictinEquality= val1!=val2
+
+On the other hand if we run non strict inequality it gives a Boolean false as non strict interprets the sting 30 to be equal to the number 30. 
+
+  
