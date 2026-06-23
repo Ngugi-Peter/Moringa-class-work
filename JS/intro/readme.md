@@ -159,4 +159,4 @@ if we console.log it brings back true as this values are not the same one being 
 
 On the other hand if we run non strict inequality it gives a Boolean false as non strict interprets the sting 30 to be equal to the number 30. 
 
-  
+ 
