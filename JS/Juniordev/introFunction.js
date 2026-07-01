@@ -14,6 +14,15 @@ timeAlert()
 */
 
 //timeAlert();
+if(base !=="number"){
+    console.warn(`kindly input a number`);
+    return;
+}
+
+if(height !=="number"){
+    console.warn(`kindly input a number`);
+    return;
+}
 
 function areaOfTriangle(base, height) {
     console.log(`base length is ${base} and type is ${typeof base}`);
