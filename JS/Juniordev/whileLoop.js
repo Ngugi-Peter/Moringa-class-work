@@ -21,4 +21,31 @@ function printNumbers(n =0) {
 }
 printNumbers(5);
 
+function mathTable() {
+    let number1 = Number(prompt("Enter a number greater than or equal to 1"));
+    let number2 = Number(prompt("Enter a number greater than or equal to 1"));
 
+    while (number1 < 1 || number2 < 1) {
+        alert("Please enter valid numbers.");
+        number1 = Number(prompt("Enter a number greater than or equal to 1"));
+        number2 = Number(prompt("Enter a number greater than or equal to 1"));
+    }
+
+    function multiply(number1, number2) {
+        let originalNumber2 = number2;
+
+        while (number2 > 0) {
+            let result = number1 * number2;
+            console.log(`${number1} * ${number2} = ${result}`);
+            number2--;
+        }
+
+        console.log(
+            `The result of multiplying ${number1} and ${originalNumber2} is ${number1 * originalNumber2}`
+        );
+    }
+
+    multiply(number1, number2);
+}
+
+mathTable();
