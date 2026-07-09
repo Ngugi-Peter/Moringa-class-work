@@ -21,3 +21,25 @@ for(let k = 0; k < 20; k++) {
 
 
 
+function mathTable() {
+    let number = Number(prompt("Enter a number greater than or equal to 1"));
+    let limit = Number(prompt("Enter how far the multiplication table should go"));
+
+    while (number < 1 || limit < 1) {
+        alert("Please enter valid numbers.");
+
+        number = Number(prompt("Enter a number greater than or equal to 1"));
+        limit = Number(prompt("Enter how far the multiplication table should go"));
+    }
+
+    function multiply(number, limit) {
+        for (let i = 1; i <= limit; i++) {
+            let result = number * i;
+            console.log(`${number} * ${i} = ${result}`);
+        }
+    }
+
+    multiply(number, limit);
+}
+
+mathTable();
