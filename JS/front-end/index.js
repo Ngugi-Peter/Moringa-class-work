@@ -21,7 +21,7 @@ code without promise
     flow = "Updated flow"
   }
   newFlow()
-  console.log("24:", flow)*/
+  console.log("24:", flow)
   let flow = "this is flow";
   fetch("https://api.github.com/users", requestOptions)
   .then((response) => response.json())
@@ -33,4 +33,7 @@ code without promise
 })
   .catch((error) => console.error(error));
 
-  console.log(result)
+  console.log(result)*/
+  function greet() {
+    
+  }
