@@ -4,11 +4,11 @@ import { createRoot } from 'react-dom/client'
 
 
 import"./index.css";
-import AmazonPage from './Amazonpage/index.jsx';
+import Props from "./Props";
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AmazonPage/>
+    <Props/>
   </StrictMode>,
 )
