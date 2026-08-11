@@ -4,11 +4,11 @@ import { createRoot } from 'react-dom/client'
 
 
 
-import StateAndEvents from "./StatesAndsEvents/ColorsandCircles.jsx";
+import Routing from './Routing'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <StateAndEvents/>
+    <Routing/>
   </StrictMode>,
 )

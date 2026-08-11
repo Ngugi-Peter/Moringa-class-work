@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Colorcircle() {
-    const [colors, setColors] = useState([]);
+    const [colors, setColors] = useState(["yellow", "red", "blue"]);
     const [color, setColor] = useState("");
     const [radius, setRadius] = useState("");
 
