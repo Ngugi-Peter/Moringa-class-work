@@ -4,11 +4,11 @@ import { createRoot } from 'react-dom/client'
 
 
 
-import Routing from './Routing'
+import Amazonpage from './Amazonpage'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Routing/>
+    <Amazonpage/>
   </StrictMode>,
 )
